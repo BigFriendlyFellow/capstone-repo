@@ -108,12 +108,12 @@ header {
   align-items: center;
 }
 /* ----------------------------------------- */
-.buttonRows {
+.buttonRows, .buttonRows2 {
   display: inline-block;
   text-align: center;
   width: 100%;
 }
-.buttonRows input{
+.buttonRows input, .buttonRows2 {
   padding: 16px;
   width: 144px;
   margin: 7px;
@@ -122,10 +122,11 @@ header {
   cursor: pointer;
   font-size: 21px;
 }
-.buttonRows input, .allZones input {
+.buttonRows input, .allZones input, .buttonRows2 {
   background-color: #f1b229;
   color: rgb(250, 237, 247);
   border: 7px solid #462521;
+  text-decoration: none;
 }
 .allZones input {
   padding: 42px;

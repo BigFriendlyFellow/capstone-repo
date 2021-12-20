@@ -1,4 +1,4 @@
 export default {
-  header: "My Zone1",
+  header: "Zone 1",
   view: "Zone1"
 };

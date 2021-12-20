@@ -1,5 +1,6 @@
 import html from "html-literal";
 import climateMap from "../../pictures/_map.jpg";
+import { Links } from "../../store";
 
 export default () => html`
   <section class="mapAndAround">
@@ -16,71 +17,10 @@ export default () => html`
   </section>
   <section class="background">
     <nav class="buttonRows">
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 1"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 2"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 3"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 4"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 5"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 6"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 7"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 8"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 9"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 10"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 11"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 12"
-      />
-      <input
-        type="button"
-        onclick="window.location.href='https://tinyurl.com/3y87ypbw';"
-        value="Zone 13"
-      />
+      ${Links.slice(4, 17).map(
+        link =>
+          `<a href="${link.title}" class="buttonRows2" data-navigo >${link.text}</a>`
+      )}
     </nav>
     <nav class="allZones">
       <input
@@ -100,3 +40,7 @@ export default () => html`
     <p>-------------DEADZONE-------------</p>
   </div>
 `;
+
+// ${st.Links.slice(3, 6).map(
+//   link => `<li><a href="${link.title}" data-navigo >${link.text}</a></li>`
+// )}
