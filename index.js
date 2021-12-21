@@ -24,7 +24,7 @@ router
 
 function render(st) {
   document.querySelector("#root").innerHTML = `
-    ${Header(st)}
+    ${Header(state)}
     ${Main(st)}
     ${Footer()}
   `;
@@ -37,8 +37,8 @@ router.hooks({
     const page =
       params && params.hasOwnProperty("page")
         ? capitalize(params.page)
-        : "Header";
-    if (page === "Header") {
+        : "Home";
+    if (page === "Home") {
       axios
         .get(
           `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=st.%20louis`
