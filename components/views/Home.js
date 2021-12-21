@@ -2,6 +2,10 @@ import html from "html-literal";
 import climateMap from "../../pictures/_map.jpg";
 import { Links } from "../../store";
 
+{
+  /* <p>${st.Home.weather.feelsLike}</p> */
+}
+
 export default () => html`
   <section class="mapAndAround">
     <h1 class="mainTitle">Find out more about your planting zone.</h1>
