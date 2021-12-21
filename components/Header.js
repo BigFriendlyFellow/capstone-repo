@@ -1,4 +1,3 @@
-import { link } from "fs";
 import html from "html-literal";
 import cartoon from "../pictures/_buckster.png";
 // import * as state from "../store";
@@ -11,21 +10,25 @@ import cartoon from "../pictures/_buckster.png";
 //   `<li><a href="${link.title}" class="topLink" data-navigo >${link.text}</a></li>`).join()
 // };
 
-// ${st.Home.weather.feelsLike}
+// ${st.Temp.weather.feelsLike}
 
 export default st => html`
   <header>
     <ul class="topLeft">
       <li class="topLeftText">
         <span id="topLeftTitle">
-          <!-- <a href="${st.Links[3].title}" data-navigo>${st.Links[3]
-            .text}</a> -->
+          <!-- <a href="${st.Links[3].title}" data-navigo>${
+  st.Links[3].text
+}</a> -->
           ${st.Links.slice(3, 4).map(
             link => `<a href="${link.title}" data-navigo >${link.text}</a>`
           )}
         </span>
 
-        <br /><span id="topLeftSubtitle">Here's the weather!</span>
+        </br><span id="topLeftSubtitle"
+          >Here's the weather! ${st.Temp.weather.description}</span
+        >
+
       </li>
       <li class="flex-container">
         <img class="logoPic" src="${cartoon}" />
