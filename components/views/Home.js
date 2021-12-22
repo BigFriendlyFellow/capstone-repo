@@ -14,7 +14,7 @@ export default () => html`
     <section class="zip">
       <p>Enter your zip code to find your planting zone:</p>
       <form>
-        <input type:"text" value="Zip">
+        <input type:"text" placeholder="Zip code here">
       </form>
     </section>
     <p><br />or choose one of the zones below:</p>

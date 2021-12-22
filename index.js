@@ -10,18 +10,6 @@ dotenv.config();
 const router = new Navigo(window.location.origin);
 // or new Navigo("/")
 
-router
-  .on({
-    // this is an object with keys and data
-    "/": () => render(state.Home),
-    // : below means something comes before it
-    ":page": params => {
-      let page = capitalize(params.page);
-      render(state[page]);
-    }
-  })
-  .resolve();
-
 function render(st) {
   document.querySelector("#root").innerHTML = `
     ${Header(state)}
@@ -32,44 +20,43 @@ function render(st) {
   // addEventListeners(st);
 }
 
-// router.hooks({
-//   before: (done, params) => {
-//     const page =
-//       params && params.hasOwnProperty("page")
-//         ? capitalize(params.page)
-//         : "Home";
-//     if (page === "Home") {
-//       axios
-//         .get(
-//           `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=st.%20louis`
-//         )
-//         .then(response => {
-//           state.Temp.weather = {};
-//           state.Temp.weather.city = response.data.name;
-//           state.Temp.weather.temp = response.data.main.temp;
-//           state.Temp.weather.feelsLike = response.data.main.feels_like;
-//           state.Temp.weather.description = response.data.weather[0].main;
-//           done();
-//         })
-//         .catch(err => console.log(err));
-//     }
-//   }
-// });
+router.hooks({
+  before: (done, params) => {
+    const page =
+      params && params.hasOwnProperty("page")
+        ? capitalize(params.page)
+        : "Home";
 
-axios
-  .get(
-    `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=st.%20louis`
-  )
-  .then(response => {
-    state.Temp.weather = {};
-    state.Temp.weather.city = response.data.name;
-    state.Temp.weather.temp = response.data.main.temp;
-    state.Temp.weather.feelsLike = response.data.main.feels_like;
-    state.Temp.weather.description = response.data.weather[0].main;
-    console.log(state.Temp.weather.feelsLike);
-    // done();
-  })
-  .catch(err => console.log(err));
+    axios
+      .get(
+        `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=st.%20louis`
+      )
+      .then(response => {
+        state.Temp.weather = {};
+        state.Temp.weather.city = response.data.name;
+        state.Temp.weather.temp = response.data.main.temp;
+        state.Temp.weather.feelsLike = response.data.main.feels_like;
+        state.Temp.weather.description = response.data.weather[0].main;
+        done();
+      })
+      .catch(err => console.log(err));
+  }
+});
+
+// axios
+//   .get(
+//     `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.OPEN_WEATHER_MAP_API_KEY}&q=st.%20louis`
+//   )
+//   .then(response => {
+//     state.Temp.weather = {};
+//     state.Temp.weather.city = response.data.name;
+//     state.Temp.weather.temp = response.data.main.temp;
+//     state.Temp.weather.feelsLike = response.data.main.feels_like;
+//     state.Temp.weather.description = response.data.weather[0].main;
+//     console.log(state.Temp.weather.feelsLike);
+//     // done();
+//   })
+//   .catch(err => console.log(err));
 
 // function render(st) {
 //   document.getElementById("root").innerHTML = `
@@ -117,3 +104,15 @@ axios
 //     });
 //   }
 // }
+
+router
+  .on({
+    // this is an object with keys and data
+    "/": () => render(state.Home),
+    // : below means something comes before it
+    ":page": params => {
+      let page = capitalize(params.page);
+      render(state[page]);
+    }
+  })
+  .resolve();
