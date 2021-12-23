@@ -20,12 +20,13 @@ function render(st) {
   // addEventListeners(st);
 }
 
+//param is the query string after the slash
 router.hooks({
   before: (done, params) => {
-    const page =
-      params && params.hasOwnProperty("page")
-        ? capitalize(params.page)
-        : "Home";
+    // const page =
+    //   params && params.hasOwnProperty("page")
+    //     ? capitalize(params.page)
+    //     : "Home";
 
     axios
       .get(
