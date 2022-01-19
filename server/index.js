@@ -45,6 +45,10 @@ app.use(cors);
 app.use(express.json());
 app.use(logging);
 
+app.use("/", (request, response) => {
+  response.status(200).send("Welcome to plants home.");
+});
+
 app.use("/plants", plants);
 
 // Handle the request with HTTP GET method from http://localhost:4040/status

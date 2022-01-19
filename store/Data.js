@@ -71,10 +71,10 @@ export default [
     "climateZone": 2,
     "temperatureMinimum": -49,
     "frostFreeDaysMinimum": 128,
-    "precipitationMaximumInInches": 1,
-    "precipitationMinimumInInches": 1,
+    "precipitationMaximumInInches": 51,
+    "precipitationMinimumInInches": 16,
     "droughtTolerance": "Low",
-    "shadeTolerance": "Tolerant",
+    "shadeTolerance": "Intermediate",
     "edibleForHumans": true
   },
   {
@@ -120,6 +120,138 @@ export default [
     "droughtTolerance": "Medium",
     "shadeTolerance": "Intermediate",
     "edibleForHumans": false
+  },
+  {
+    "plantName": "Orchardgrass",
+    "climateZone": 3,
+    "temperatureMinimum": -33,
+    "frostFreeDaysMinimum": 120,
+    "precipitationMaximumInInches": 65,
+    "precipitationMinimumInInches": 32,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "",
+    "climateZone": ,
+    "temperatureMinimum": ,
+    "frostFreeDaysMinimum": ,
+    "precipitationMaximumInInches": ,
+    "precipitationMinimumInInches": ,
+    "droughtTolerance": "",
+    "shadeTolerance": "",
+    "edibleForHumans": true
   },
 
 ];
