@@ -1,5 +1,5 @@
 import html from "html-literal";
-import cartoon from "../pictures/_buckster.png";
+import cartoon from "../pictures/_buckster4.png";
 // import * as state from "../store";
 // import { Links } from "../store";
 
@@ -17,16 +17,13 @@ export default st => html`
     <ul class="topLeft">
       <li class="topLeftText">
         <span id="topLeftTitle">
-          <!-- <a href="${st.Links[3].title}" data-navigo>${
-  st.Links[3].text
-}</a> -->
           ${st.Links.slice(3, 4).map(
             link => `<a href="${link.title}" data-navigo >${link.text}</a>`
           )}
         </span>
 
         </br><span id="topLeftSubtitle"
-          >Here's the weather! ${st.Temp.weather.description}</span
+          >Weather: It's ${st.Temp.weather.description} outside!</span
         >
 
       </li>

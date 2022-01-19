@@ -9,6 +9,7 @@
 }
 * {
   font-family: PermanentMarker;
+  text-decoration: none;
 }
 :root {
   /* must start with "--", to invoke -> var(--primary-color); */
@@ -19,15 +20,16 @@ header li {
 }
 header {
   border: 2px solid black;
-  background-color: #ceebc9;
+  background-color: #d7eed5;
   flex-direction: row;
   justify-content: space-between;
   display: flex;
+  width: 100%;
 }
 .logoPic {
   min-width: 0;
   min-height: 0;
-  max-width: 42%;
+  max-width: 35%;
 }
 .flex-container {
   display: flex;
@@ -41,7 +43,7 @@ header {
   }
 }
 #topLeftTitle {
-  color: rgb(28, 51, 28);
+
   font-family: PermanentMarker;
   /* px, pixels (absolute):
   used for base font size and really small things like border radii
@@ -55,7 +57,7 @@ header {
   /* padding: 15px; */
 }
 #topLeftSubtitle {
-  font-size: max(20px, 1.2vw);
+  font-size: max(20px, 1.39vw);
 }
 .topLeftText {
   padding: 7px;
@@ -66,6 +68,9 @@ header {
 .topLeft {
   display: flex;
   flex-direction: row;
+}
+header, header a {
+  color: rgb(5, 82, 5);
 }
 .topRight {
   padding-top: 21px;
@@ -84,9 +89,13 @@ header {
   /* border: black dotted 2px; */
   background-color: transparent;
   cursor: pointer;
-  font-size: max(18px, 0.9vw);
+  font-size: max(20px, 1.39vw);
   padding-right: 21px;
   text-decoration: none;
+}
+#mainTitle {
+  text-align: center;
+  font-size: 28px;
 }
 #usMap {
   width: 70%;
@@ -98,6 +107,13 @@ header {
   flex-direction: row;
   align-items: center;
 }
+.zip * {
+  font-size: max(17px, 1.27vw);
+}
+.zip2 {
+  font-size: max(17px, 1.27vw);
+  text-align: center;
+}
 .zip p {
   padding: 3px;
 }
@@ -106,6 +122,10 @@ header {
   flex-direction: column;
   /* flex-wrap: wrap; */
   align-items: center;
+}
+#answer1{
+  font-size: max(22px, 1.55vw);
+  font-weight: bold;
 }
 /* ----------------------------------------- */
 .buttonRows, .buttonRows2 {
@@ -124,8 +144,8 @@ header {
 }
 .buttonRows input, .allZones input, .buttonRows2 {
   background-color: #f1b229;
-  color: rgb(250, 237, 247);
-  border: 7px solid #462521;
+  color: rgb(97, 28, 7);
+  border: 7px solid #471913;
   text-decoration: none;
 }
 .allZones input {
@@ -151,7 +171,50 @@ header {
   /* height: 400%; */
 }
 article {
+  font-size: max(17px, 1.27vw);
+}
+/* --------------------------------------- */
 
+/* .zoneContent {
+  overflow-x: auto;
+} */
+.zoneContent::-webkit-scrollbar {
+  width: 10px;
+}
+#zoneNumberTableHeadings th{
+  /* padding: 222px; */
+  /* margin: 22px; */
+  /* border-bottom: 2px solid black; */
+  line-height: 300%;
+  /* display: flex; */
+  justify-content: center;
+  align-content: center;
+  /* width: 100%; */
+  /* height: 100%; */
+
+}
+#zoneNumberTableHeadings th {
+  /* display: inline-block; */
+  /* border-bottom: 2px solid black; */
+}
+#zoneNumberTable {
+  /* text-align: left; */
+  padding: 15px;
+  /* margin: 33px; */
+  /* border: 2px solid black; */
+  border-spacing: 5px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* table-layout: fixed; */
+  /* width: 100%; */
+}
+#zoneNumberTable, #zoneNumberTable th, #zoneNumberTable td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+#zoneNumberTable tr:hover {
+  background-color: lime;
 }
 
 /* --------------------------------------- */

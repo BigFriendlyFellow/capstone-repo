@@ -5,3 +5,4 @@ export { default as Home } from "./Home";
 export { default as Links } from "./Links";
 export { default as Temp } from "./Temp";
 export { default as Zone1 } from "./Zone1";
+export { default as Zone2 } from "./Zone2";

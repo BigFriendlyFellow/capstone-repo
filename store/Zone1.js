@@ -1,4 +1,5 @@
 export default {
   header: "Zone 1",
-  view: "Zone1"
+  view: "Zone1",
+  plants: []
 };
