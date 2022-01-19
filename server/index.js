@@ -45,11 +45,6 @@ app.use(cors);
 app.use(express.json());
 app.use(logging);
 
-app.use("/", (request, response, next) => {
-  response.status(200).send("Welcome to plants home.");
-  next();
-});
-
 app.use("/plants", plants);
 
 // Handle the request with HTTP GET method from http://localhost:4040/status
@@ -58,6 +53,11 @@ app.get("/status", (request, response) => {
   // Create the response body
   // End and return the response
   response.send(JSON.stringify({ message: "Service healthy" }));
+});
+
+app.use("/", (request, response, next) => {
+  response.status(200).send("Welcome to plants home.");
+  next();
 });
 
 // Tell the Express app to start listening
