@@ -96,6 +96,7 @@ router.hooks({
         .then(response => {
           state.Zone1.plants = response.data;
           console.log(state.Zone1.plants);
+
           done();
         })
         .catch(error => {

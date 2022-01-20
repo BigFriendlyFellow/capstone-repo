@@ -130,7 +130,348 @@ export default [
     "precipitationMinimumInInches": 32,
     "droughtTolerance": "Medium",
     "shadeTolerance": "Tolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Western Dogwood",
+    "climateZone": 3,
+    "temperatureMinimum": -35,
+    "frostFreeDaysMinimum": 100,
+    "precipitationMaximumInInches": 60,
+    "precipitationMinimumInInches": 18,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Autumn Olive",
+    "climateZone": 4,
+    "temperatureMinimum": -23,
+    "frostFreeDaysMinimum": 150,
+    "precipitationMaximumInInches": 45,
+    "precipitationMinimumInInches": 28,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intolerant",
     "edibleForHumans": true
+  },
+  {
+    "plantName": "Port Orford Cedar",
+    "climateZone": 5,
+    "temperatureMinimum": -12,
+    "frostFreeDaysMinimum": 173,
+    "precipitationMaximumInInches": 110,
+    "precipitationMinimumInInches": 49,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Japanese Cedar",
+    "climateZone": 6,
+    "temperatureMinimum": -8,
+    "frostFreeDaysMinimum": 180,
+    "precipitationMaximumInInches": 55,
+    "precipitationMinimumInInches": 36,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Engelmann's Daisy",
+    "climateZone": 6,
+    "temperatureMinimum": -3,
+    "frostFreeDaysMinimum": 100,
+    "precipitationMaximumInInches": 35,
+    "precipitationMinimumInInches": 13,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Weeping Lovegrass",
+    "climateZone": 6,
+    "temperatureMinimum": -8,
+    "frostFreeDaysMinimum": 160,
+    "precipitationMaximumInInches": 40,
+    "precipitationMinimumInInches": 15,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Carolina Silverbell",
+    "climateZone": 6,
+    "temperatureMinimum": -10,
+    "frostFreeDaysMinimum": 160,
+    "precipitationMaximumInInches": 80,
+    "precipitationMinimumInInches": 40,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Northern Spiderlily",
+    "climateZone": 6,
+    "temperatureMinimum": -3,
+    "frostFreeDaysMinimum": 175,
+    "precipitationMaximumInInches": 55,
+    "precipitationMinimumInInches": 32,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "St. Peterswort",
+    "climateZone": 6,
+    "temperatureMinimum": -8,
+    "frostFreeDaysMinimum": 170,
+    "precipitationMaximumInInches": 48,
+    "precipitationMinimumInInches": 32,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Eastern Baccharis",
+    "climateZone": 6,
+    "temperatureMinimum": -3,
+    "frostFreeDaysMinimum": 180,
+    "precipitationMaximumInInches": 60,
+    "precipitationMinimumInInches": 36,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Mule-Fat",
+    "climateZone": 6,
+    "temperatureMinimum": -3,
+    "frostFreeDaysMinimum": 160,
+    "precipitationMaximumInInches": 18,
+    "precipitationMinimumInInches": 10,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Nutmeg Hickory",
+    "climateZone": 6,
+    "temperatureMinimum": -10,
+    "frostFreeDaysMinimum": 240,
+    "precipitationMaximumInInches": 60,
+    "precipitationMinimumInInches": 40,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "Partridge Pea",
+    "climateZone": 6,
+    "temperatureMinimum": -3,
+    "frostFreeDaysMinimum": 130,
+    "precipitationMaximumInInches": 45,
+    "precipitationMinimumInInches": 14,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Live Oak",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 240,
+    "precipitationMaximumInInches": 70,
+    "precipitationMinimumInInches": 32,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Valley Oak",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 200,
+    "precipitationMaximumInInches": 40,
+    "precipitationMinimumInInches": 16,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Southern Magnolia",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 220,
+    "precipitationMaximumInInches": 60,
+    "precipitationMinimumInInches": 35,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Fernleaf Biscuitroot",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 240,
+    "precipitationMaximumInInches": 100,
+    "precipitationMinimumInInches": 14,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Shaggy Blazing Star",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 200,
+    "precipitationMaximumInInches": 65,
+    "precipitationMinimumInInches": 30,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Chaparral Yucca",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 200,
+    "precipitationMaximumInInches": 14,
+    "precipitationMinimumInInches": 8,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "California Poppy",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 120,
+    "precipitationMaximumInInches": 18,
+    "precipitationMinimumInInches": 8,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Southwestern Pricklypoppy",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 200,
+    "precipitationMaximumInInches": 12,
+    "precipitationMinimumInInches": 6,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Redwood",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 180,
+    "precipitationMaximumInInches": 200,
+    "precipitationMinimumInInches": 20,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Saw Palmetto",
+    "climateZone": 7,
+    "temperatureMinimum": 7,
+    "frostFreeDaysMinimum": 180,
+    "precipitationMaximumInInches": 80,
+    "precipitationMinimumInInches": 35,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "Bayhops",
+    "climateZone": 8,
+    "temperatureMinimum": 17,
+    "frostFreeDaysMinimum": 365,
+    "precipitationMaximumInInches": 80,
+    "precipitationMinimumInInches": 30,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Arabian Coffee",
+    "climateZone": 8,
+    "temperatureMinimum": 17,
+    "frostFreeDaysMinimum": 365,
+    "precipitationMaximumInInches": 100,
+    "precipitationMinimumInInches": 60,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Tolerant",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "Seagrape",
+    "climateZone": 8,
+    "temperatureMinimum": 17,
+    "frostFreeDaysMinimum": 365,
+    "precipitationMaximumInInches": 60,
+    "precipitationMinimumInInches": 20,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "Saguaro",
+    "climateZone": 8,
+    "temperatureMinimum": 15,
+    "frostFreeDaysMinimum": 240,
+    "precipitationMaximumInInches": 10,
+    "precipitationMinimumInInches": 2,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "Brown Mustard",
+    "climateZone": 8,
+    "temperatureMinimum": 17,
+    "frostFreeDaysMinimum": 130,
+    "precipitationMaximumInInches": 80,
+    "precipitationMinimumInInches": 30,
+    "droughtTolerance": "Low",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": true
+  },
+  {
+    "plantName": "Turtleweed",
+    "climateZone": 8,
+    "temperatureMinimum": 17,
+    "frostFreeDaysMinimum": 200,
+    "precipitationMaximumInInches": 60,
+    "precipitationMinimumInInches": 28,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Common Bamboo",
+    "climateZone": 8,
+    "temperatureMinimum": 17,
+    "frostFreeDaysMinimum": 365,
+    "precipitationMaximumInInches": 100,
+    "precipitationMinimumInInches": 60,
+    "droughtTolerance": "Medium",
+    "shadeTolerance": "Intolerant",
+    "edibleForHumans": false
+  },
+  {
+    "plantName": "Pacific Madrone",
+    "climateZone": 8,
+    "temperatureMinimum": 13,
+    "frostFreeDaysMinimum": 200,
+    "precipitationMaximumInInches": 163,
+    "precipitationMinimumInInches": 15,
+    "droughtTolerance": "High",
+    "shadeTolerance": "Intermediate",
+    "edibleForHumans": false
   },
   {
     "plantName": "",
@@ -141,7 +482,7 @@ export default [
     "precipitationMinimumInInches": ,
     "droughtTolerance": "",
     "shadeTolerance": "",
-    "edibleForHumans": true
+    "edibleForHumans": false
   },
   {
     "plantName": "",
@@ -152,7 +493,7 @@ export default [
     "precipitationMinimumInInches": ,
     "droughtTolerance": "",
     "shadeTolerance": "",
-    "edibleForHumans": true
+    "edibleForHumans": false
   },
   {
     "plantName": "",
@@ -163,7 +504,7 @@ export default [
     "precipitationMinimumInInches": ,
     "droughtTolerance": "",
     "shadeTolerance": "",
-    "edibleForHumans": true
+    "edibleForHumans": false
   },
   {
     "plantName": "",
@@ -174,7 +515,7 @@ export default [
     "precipitationMinimumInInches": ,
     "droughtTolerance": "",
     "shadeTolerance": "",
-    "edibleForHumans": true
+    "edibleForHumans": false
   },
   {
     "plantName": "",
@@ -185,7 +526,7 @@ export default [
     "precipitationMinimumInInches": ,
     "droughtTolerance": "",
     "shadeTolerance": "",
-    "edibleForHumans": true
+    "edibleForHumans": false
   },
   {
     "plantName": "",
@@ -196,7 +537,7 @@ export default [
     "precipitationMinimumInInches": ,
     "droughtTolerance": "",
     "shadeTolerance": "",
-    "edibleForHumans": true
+    "edibleForHumans": false
   },
   {
     "plantName": "",
@@ -207,63 +548,19 @@ export default [
     "precipitationMinimumInInches": ,
     "droughtTolerance": "",
     "shadeTolerance": "",
-    "edibleForHumans": true
-  },
-  {
-    "plantName": "",
-    "climateZone": ,
-    "temperatureMinimum": ,
-    "frostFreeDaysMinimum": ,
-    "precipitationMaximumInInches": ,
-    "precipitationMinimumInInches": ,
-    "droughtTolerance": "",
-    "shadeTolerance": "",
-    "edibleForHumans": true
-  },
-  {
-    "plantName": "",
-    "climateZone": ,
-    "temperatureMinimum": ,
-    "frostFreeDaysMinimum": ,
-    "precipitationMaximumInInches": ,
-    "precipitationMinimumInInches": ,
-    "droughtTolerance": "",
-    "shadeTolerance": "",
-    "edibleForHumans": true
-  },
-  {
-    "plantName": "",
-    "climateZone": ,
-    "temperatureMinimum": ,
-    "frostFreeDaysMinimum": ,
-    "precipitationMaximumInInches": ,
-    "precipitationMinimumInInches": ,
-    "droughtTolerance": "",
-    "shadeTolerance": "",
-    "edibleForHumans": true
-  },
-  {
-    "plantName": "",
-    "climateZone": ,
-    "temperatureMinimum": ,
-    "frostFreeDaysMinimum": ,
-    "precipitationMaximumInInches": ,
-    "precipitationMinimumInInches": ,
-    "droughtTolerance": "",
-    "shadeTolerance": "",
-    "edibleForHumans": true
+    "edibleForHumans": false
   },
 
 ];
 
-// {
-//   "plantName": "",
-//   "climateZone": ,
-//   "temperatureMinimum": ,
-//   "frostFreeDaysMinimum": ,
-//   "precipitationMaximumInInches": ,
-//   "precipitationMinimumInInches": ,
-//   "droughtTolerance": "",
-//   "shadeTolerance": "",
-//   "edibleForHumans": true
-// },
+{
+  "plantName": "",
+  "climateZone": ,
+  "temperatureMinimum": ,
+  "frostFreeDaysMinimum": ,
+  "precipitationMaximumInInches": ,
+  "precipitationMinimumInInches": ,
+  "droughtTolerance": "",
+  "shadeTolerance": "",
+  "edibleForHumans": false
+},

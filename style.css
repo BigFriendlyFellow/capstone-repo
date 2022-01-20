@@ -189,6 +189,7 @@ article {
   /* display: flex; */
   justify-content: center;
   align-content: center;
+  background-color: rgb(228, 197, 197);
   /* width: 100%; */
   /* height: 100%; */
 
@@ -214,7 +215,7 @@ article {
   padding: 6px;
 }
 #zoneNumberTable tr:hover {
-  background-color: lime;
+  background-color: rgb(185, 223, 185);
 }
 
 /* --------------------------------------- */
